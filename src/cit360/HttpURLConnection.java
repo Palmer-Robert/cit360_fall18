@@ -17,7 +17,7 @@ import java.net.*;
 public class HttpURLConnection {
     public static void main(String[] args) throws Exception {
     // Step 1: Create a URL object
-    URL url = new URL("http://www.google.com");
+    URL url = new URL("https://www.lds.org");
     
     // Step 2: Obtain a URLConnection object from the URL
     URLConnection connect = url.openConnection();
