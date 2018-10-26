@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package cit360;
 
 import java.io.*;
@@ -25,9 +20,9 @@ public class HttpURLConnection {
     // Step 3: Configure the URLConnection
     // Step 4: Read the header fields (Optional)
     // Step 5: Get an input stream and read data (Optional)
-    // Step 6: Get an output stream and write data (Optional)
     BufferedReader in = new BufferedReader(new InputStreamReader(connect.getInputStream()));
     String inputLine;
+    // Step 6: Get an output stream and write data (Optional)
     while ((inputLine = in.readLine()) != null)
         System.out.println(inputLine);
     
