@@ -6,7 +6,6 @@
     <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
     <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull</property>
     <property name="hibernate.connection.username">root</property>
-    <mapping resource="com/robert/Members.hbm.xml"/>
     <mapping resource="com/robert/myHibernate.hbm.xml"/>
   </session-factory>
   <session-factory/>
